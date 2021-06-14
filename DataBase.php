@@ -1,12 +1,12 @@
 <?php
 
-$db_host='localhost';
+$db_host='sql210.bytehost8.com';
 
-$db_name='final';
+$db_name='b8_28861514_Final';
 
-$db_user='root';
+$db_user='b8_28861514';
 
-$db_pass='';
+$db_pass='mysql518';
 
 $dsn ="mysql:host=$db_host;dbname=$db_name;charset=utf8";
 
