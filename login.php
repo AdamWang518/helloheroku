@@ -1,5 +1,8 @@
 <?php
-include("DataBase.php");
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: *");
+header("Access-Control-Allow-Headers: Origin, Methods, Content-Type");
+include("database.php");
 $userName = $_GET["userName"];
 $password = $_GET["password"];
 $sql = $conn->prepare("SELECT * FROM `users` where username='$userName' and password='$password'");
